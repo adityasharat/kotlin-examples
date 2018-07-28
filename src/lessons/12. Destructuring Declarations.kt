@@ -1,3 +1,5 @@
+package lessons
+
 /**
  * This example introduces a concept that we call destructuring declarations.
  * It creates multiple variable at once. Anything can be on the right-hand

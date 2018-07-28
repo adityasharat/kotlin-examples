@@ -1,3 +1,5 @@
+package lessons
+
 /**
  * Data class gets next functions, generated automatically:
  * component functions, toString(), equals(), hashCode() and copy().

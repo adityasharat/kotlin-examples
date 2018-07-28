@@ -1,3 +1,5 @@
+package lessons
+
 /**
  *  Data class gets component functions, one for each property declared
  *  in the primary constructor, generated automatically, same for all the
@@ -15,15 +17,15 @@ fun createUser(name: String): User {
 
 fun main(args: Array<String>) {
     val user = createUser("Alex")
-    println("name = ${user.name}, id = ${user.id}")
+    println("name = ${user.name}, lessons.getId = ${user.id}")
 
     // or
 
     val (name, id) = createUser("Dave")
-    println("name = $name, id = $id")
+    println("name = $name, lessons.getId = $id")
 
     // or
 
     val harry = createUser("Harry")
-    println("name = ${harry.component1()}, id = ${harry.component2()}")
+    println("name = ${harry.component1()}, lessons.getId = ${harry.component2()}")
 }

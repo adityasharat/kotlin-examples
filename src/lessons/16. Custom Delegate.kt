@@ -1,3 +1,5 @@
+package lessons
+
 /**
  * There's some new syntax: you can say `val 'property name': 'Type' by 'expression'`.
  * The expression after by is the delegate, because get() and set() methods
@@ -11,7 +13,7 @@ import kotlin.reflect.KProperty
 class Book {
     var price: Double by Delegate()
 
-    override fun toString() = "Book"
+    override fun toString() = "lessons.Book"
 }
 
 class Delegate {

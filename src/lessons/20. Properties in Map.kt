@@ -1,3 +1,5 @@
+package lessons
+
 /**
  * Properties stored in a map. This comes up a lot in applications like parsing JSON
  * or doing other "dynamic" stuff. Delegates take values from this map (by the string keys -
@@ -17,5 +19,5 @@ fun main(args: Array<String>) {
     )
     val product = Product(map)
 
-    println("Product[name=${product.name},age=${product.price}]")
+    println("lessons.Product[name=${product.name},age=${product.price}]")
 }

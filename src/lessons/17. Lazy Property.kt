@@ -1,3 +1,5 @@
+package lessons
+
 /**
  * Delegates.lazy() is a function that returns a delegate that implements a lazy property:
  * the first call to get() executes the lambda expression passed to lazy() as an argument

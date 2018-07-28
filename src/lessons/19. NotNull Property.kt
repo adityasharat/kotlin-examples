@@ -1,3 +1,5 @@
+package lessons
+
 /**
  * Users frequently ask what to do when you have a non-null var, but you don't have an
  * appropriate value to assign to it in constructor (i.e. it must be assigned later)?

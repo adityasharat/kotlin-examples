@@ -1,3 +1,5 @@
+package lessons
+
 /**
  * The observable() function takes two arguments: initial value and a handler for modifications.
  * The handler gets called every time we assign to `name`, it has three parameters:
