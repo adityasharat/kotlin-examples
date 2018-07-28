@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="25. Game of Life" type="JetRunConfigurationType" factoryName="Kotlin">
+    <module name="kotlin-examples" />
+    <option name="VM_PARAMETERS" value="" />
+    <option name="PROGRAM_PARAMETERS" value="" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <option name="PASS_PARENT_ENVS" value="true" />
+    <option name="MAIN_CLASS_NAME" value="_25__Game_of_LifeKt" />
+    <option name="WORKING_DIRECTORY" value="" />
+    <method />
+  </configuration>
+</component>
