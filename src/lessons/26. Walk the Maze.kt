@@ -1,5 +1,7 @@
+package lessons
+
 /**
- * Let's Walk Through a Maze.
+ * Let's Walk Through a lessons.Maze.
  *
  * Imagine there is a maze whose walls are the big 'O' letters.
  * Now, I stand where a big 'I' stands and some cool prize lies
@@ -63,7 +65,7 @@ fun findPath(maze: Maze): List<Point>? {
 }
 
 /**
- * Find neighbors of the (i, j) cell that are not walls
+ * Find lessons.neighbors of the (i, j) cell that are not walls
  */
 fun Maze.neighbors(i: Int, j: Int): List<Point> {
     val result = arrayListOf<Point>()
@@ -83,7 +85,7 @@ fun Maze.addIfFree(i: Int, j: Int, result: MutableList<Point>) {
 }
 
 /**
- * A data class that represents a maze
+ * lessons.A data class that represents a maze
  */
 class Maze(
         // Number or columns
@@ -98,7 +100,7 @@ class Maze(
         val end: Point
 )
 
-/** A few maze examples here */
+/** lessons.A few maze examples here */
 fun main(args: Array<String>) {
     walkThroughMaze("I  $")
     walkThroughMaze("I O $")
@@ -138,7 +140,7 @@ fun main(args: Array<String>) {
 fun walkThroughMaze(str: String) {
     val maze = makeMaze(str)
 
-    println("Maze:")
+    println("lessons.Maze:")
     val path = findPath(maze)
     for (i in 0 until maze.height) {
         for (j in 0 until maze.width) {
@@ -159,7 +161,7 @@ fun walkThroughMaze(str: String) {
 
 
 /**
- * A maze is encoded in the string s: the big 'O' letters are walls.
+ * lessons.A maze is encoded in the string s: the big 'O' letters are walls.
  * I stand where a big 'I' stands and the prize is marked with
  * a '$' sign.
  *

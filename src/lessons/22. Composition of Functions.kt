@@ -1,6 +1,8 @@
+package lessons
+
 /**
  * The composition function return a composition of two functions passed to it:
- * compose(f, g) = f(g(*)).
+ * lessons.compose(f, g) = f(g(*)).
  * Now, you can apply it to callable references.
  */
 

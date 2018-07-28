@@ -1,3 +1,5 @@
+package lessons
+
 /**
  * "Callable References" or "Feature Literals", i.e. an ability to pass
  * named functions or properties as values. Users often ask

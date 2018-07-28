@@ -1,3 +1,5 @@
+package lessons
+
 /**
  * This example implements the famous "99 Bottles of Beer" program
  * See http://99-bottles-of-beer.net/

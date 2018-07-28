@@ -1,10 +1,12 @@
+package lessons
+
 /**
  * This is a straightforward implementation of The Game of Life
  * See http://en.wikipedia.org/wiki/Conway's_Game_of_Life
  */
 
 /*
- * A field where cells live. Effectively immutable
+ * lessons.A field where cells live. Effectively immutable
  */
 class Field(
         val width: Int,
@@ -19,7 +21,7 @@ class Field(
             j in 0 until width &&
             live[i][j]) 1 else 0
 
-    // How many neighbors of (i, j) are alive?
+    // How many lessons.neighbors of (i, j) are alive?
     fun liveNeighbors(i: Int, j: Int) =
             liveCount(i - 1, j - 1) +
                     liveCount(i - 1, j) +
@@ -36,21 +38,21 @@ class Field(
 
 /**
  * This function takes the present state of the field
- * and returns a new field representing the next moment of time
+ * and returns a new field representing the lessons.next moment of time
  */
 fun next(field: Field): Field {
     return Field(field.width, field.height) { i, j ->
         val n = field.liveNeighbors(i, j)
         if (field[i, j])
         // (i, j) is alive
-            n in 2..3 // It remains alive iff it has 2 or 3 neighbors
+            n in 2..3 // It remains alive iff it has 2 or 3 lessons.neighbors
         else
         // (i, j) is dead
-            n == 3 // A new cell is born if there are 3 neighbors alive
+            n == 3 // lessons.A new cell is born if there are 3 lessons.neighbors alive
     }
 }
 
-/** A few colony examples here */
+/** lessons.A few colony examples here */
 fun main(args: Array<String>) {
     // Simplistic demo
     runGameOfLife("***", 3)
@@ -83,7 +85,7 @@ fun main(args: Array<String>) {
         ____**__
         ____**__
     """, 6)
-    // A fancier oscillating colony
+    // lessons.A fancier oscillating colony
     runGameOfLife("""
         -------------------
         -------***---***---

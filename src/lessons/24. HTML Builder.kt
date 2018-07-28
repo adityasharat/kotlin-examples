@@ -1,22 +1,24 @@
+package lessons
+
 /**
  * This is an example of a Type-Safe Groovy-style Builder
  *
  * Builders are good for declaratively describing data in your code.
- * In this example we show how to describe an HTML page in Kotlin.
+ * In this example we show how to describe an lessons.HTML page in Kotlin.
  *
  * See this page for details:
- * http://kotlinlang.org/docs/reference/type-safe-builders.html
+ * http://kotlinlang.org/docs/reference/type-safe-builders.lessons.html
  */
 
 fun main(args: Array<String>) {
     val result =
             html {
                 head {
-                    title { +"HTML encoding with Kotlin" }
+                    title { +"lessons.HTML encoding with Kotlin" }
                 }
                 body {
-                    h1 { +"HTML encoding with Kotlin" }
-                    p { +"this format can be used as an alternative markup to HTML" }
+                    h1 { +"lessons.HTML encoding with Kotlin" }
+                    p { +"this format can be used as an alternative markup to lessons.HTML" }
 
                     // an element with attributes and text content
                     a(href = "http://jetbrains.com/kotlin") { +"Kotlin" }
@@ -94,7 +96,7 @@ abstract class TagWithText(name: String) : Tag(name) {
     }
 }
 
-class HTML : TagWithText("html") {
+class HTML : TagWithText("lessons.html") {
     fun head(init: Head.() -> Unit) = initTag(Head(), init)
 
     fun body(init: Body.() -> Unit) = initTag(Body(), init)
