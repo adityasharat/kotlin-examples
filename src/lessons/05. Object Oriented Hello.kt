@@ -1,3 +1,5 @@
+package lessons
+
 /**
  * Here we have a class with a primary constructor and a member function.
  * Note that there's no `new` keyword used to create an object.

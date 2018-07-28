@@ -1,3 +1,5 @@
+package lessons
+
 /**
  * `if` is an expression, i.e. it returns a value.
  * Therefore there is no ternary operator (condition ? then : else),

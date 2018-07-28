@@ -1,3 +1,5 @@
+package lessons
+
 /**
  * Line 13 demonstrates string templates and array access.
  * See this pages for details:

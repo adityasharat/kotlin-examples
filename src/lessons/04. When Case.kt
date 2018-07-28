@@ -1,3 +1,5 @@
+package lessons
+
 /**
  * In this example, `val` denotes a declaration of a read-only local variable,
  * that is assigned an pattern matching expression.

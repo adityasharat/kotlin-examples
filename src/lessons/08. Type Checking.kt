@@ -1,3 +1,5 @@
+package lessons
+
 /**
  * The `is` operator checks if an expression is an instance of a type and more.
  * If we is-checked an immutable local variable or property, there's no need

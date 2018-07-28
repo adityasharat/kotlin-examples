@@ -1,3 +1,5 @@
+package lessons
+
 /**
  * Line 2 demonstrates the for-loop, that would have been called "enhanced"
  * if there were any other for-loop in Kotlin.

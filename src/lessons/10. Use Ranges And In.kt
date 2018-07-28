@@ -1,3 +1,5 @@
+package lessons
+
 /**
  * Check if a number lies within a range.
  * Check if a number is out of range.
