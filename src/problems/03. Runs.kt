@@ -14,8 +14,8 @@
 package problems
 
 fun runs(input: IntArray): Int {
-    if (input.isEmpty()) {
-        return 0
+    return if (input.isEmpty()) {
+        0
     } else {
         var runs = 1
         for (index in 0 until input.size - 1) {
@@ -24,6 +24,6 @@ fun runs(input: IntArray): Int {
                 runs += 1
             }
         }
-        return runs
+        runs
     }
 }
