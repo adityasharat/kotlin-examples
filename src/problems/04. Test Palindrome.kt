@@ -3,7 +3,7 @@ package problems
 import org.junit.Test
 import kotlin.test.*
 
-class Tests {
+class TestPalindrome {
     @Test
     fun testEmptyString() {
         test(true, "")
