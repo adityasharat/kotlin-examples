@@ -4,7 +4,7 @@ import org.junit.Test
 import kotlin.test.*
 import java.util.Arrays
 
-class Tests {
+class TestIndexOfMax {
     @Test
     fun testNull() {
         test(null)
